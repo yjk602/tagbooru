@@ -1,3 +1,9 @@
 == Introduction ==
 
 *Tagbooru.pl* and *tagbooru_x86-32.exe* were written for downloading from linear imageboards such as danbooru and moe.imouto. The x86 executable for Windows was compiled using the Perl Dev Kit. If you wish to run tagbooru.pl on OSX or Linux, you can do so by opening up the console and typing *perl tagbooru.pl*. Running tagbooru.pl on windows requires you to install perl by downloading [http://www.activestate.com/activeperl/downloads Activestate]
+
+Tagbooru does not use commands and is therefore relatively simple to use, compared to other scripts which download from danbooru by using the API. Tagbooru approaches each html consuming approximately 20kb, after which it downloads the image. Depending on the time of the day, the speed of your connection and the size of the request you gave to tagbooru, images will be downloaded requiring a certain amount of time.
+
+Over time, the average size of the images on danbooru has increased. Currently (January 2011), the average size of an image is 620kb. Overall, the average size of all images on danbooru is 450kb. Henceforth, downloading all images on danbooru requires anywhere from 220gb for safe-only up to 360gb for safe and explicit. It is of course possible to download sets such as 'touhou' or 'vocaloid'. More advanced sets can also be compiled. Please refer to the explanation within tagbooru for all the details. Files will be downloaded after you have given permission.
+
+The average overall filesize on moe.imouto is approximately 3050kb and therefore much larger than danbooru. Please keep bandwidth costs in mind. Downloading all of moe.imouto requires about 500gb of diskspace. If you do not need all images, do not download them. It is possible to download smaller sets of images. Please refer to tagbooru's menus for the full explanation. Files will be downloaded after you have given permission to download.
