@@ -1,0 +1,3 @@
+# RAW HTML pages #
+
+There is a lot of information stored on imageboards and not all of it are images. Replies, ratings, MD5, tags, source, scores, original uploader, approver, pools... They all represent information which can be extracted and analysed. In the Downloads tab, you'll find various 7z files ([7-zip](http://www.7-zip.org/)) containing the raw html files from various linear imageboards. Please use 7-zip to decompress the archives to avoid errors. All comments in the html-files remain copyright of their respective owner. I claim no rights of any material placed in the HTML packages. You may use them in any way you see fit. Beware of the large unpacked size. Please do not download the packages if you do not know what to do with them!
